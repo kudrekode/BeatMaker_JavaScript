@@ -1,0 +1,67 @@
+
+
+body {
+
+    background-image: url("/images/background1.jpg");
+
+}
+
+h1 {
+
+    border: none;
+    font-family: "Fantasy", coppins, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+
+}
+
+.button {
+
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 30px;
+
+}
+
+.button:hover {
+
+    background-color: lightgrey;
+    color: dimgrey;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.button:active {
+    background-color: lightgrey;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(4px);
+}
+
+.button_container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: 4px solid lightgrey;
+    border-radius: 10px;
+    margin: 1rem;
+    width: 100px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    transition: all 0.07s;
+}
